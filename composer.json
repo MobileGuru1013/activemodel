@@ -1,0 +1,24 @@
+{
+    "name": "gearbox/activemodel",
+    "type": "library",
+    "description": "Gearbox PHP / ActiveModel",
+    "keywords": ["framework"],
+    "homepage": "http://gabrielrosas.com",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Gabriel Rosas",
+            "email": "me@gabrielrosas.com"
+        }
+    ],
+    "require": {
+      "gearbox/activesupport": "dev-master",
+      "gearbox/engine": "dev-master"
+    },
+    "autoload": {
+        "files": ["build.php"],
+        "classmap": [
+          "lib/active_model.php"
+        ]
+    }
+}
